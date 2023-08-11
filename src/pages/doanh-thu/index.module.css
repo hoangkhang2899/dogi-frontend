@@ -1,0 +1,40 @@
+.report_square {
+  display: flex;
+  flex-direction: column;
+  background-color: #efefef;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 0 gray;
+  height: 15rem;
+  width: 20rem;
+  margin: auto;
+}
+
+.report_square .title {
+  width: 100%;
+  color: #003a83;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.report_square .body {
+  width: 100%;
+  color: #003a83;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 6.5rem;
+  font-weight: 700;
+  padding-bottom: 4rem;
+  margin: auto;
+}
+
+.report_square .body.small {
+  font-size: 3.5rem;
+}

@@ -1,0 +1,8 @@
+.password {
+  -webkit-text-security: disc;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}

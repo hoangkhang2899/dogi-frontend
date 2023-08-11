@@ -1,0 +1,116 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  background: url("assets/images/background.png") no-repeat center;
+  background-size: cover;
+  /* background: rgb(241, 176, 234);
+  background: linear-gradient(121deg, rgba(241, 176, 234, 1) 0%, rgba(255, 116, 240, 1) 32%, rgba(255, 68, 235, 1) 100%); */
+}
+
+.form {
+  position: fixed;
+  width: 70vw;
+  max-width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2.5em 1em;
+}
+
+.form:has(.form_text) {
+  padding: 1em 1em 2.5em 1em;
+}
+
+.form_text {
+  color: #cc0000;
+  text-align: center;
+  margin: 0 0 1em 0;
+}
+
+.form_username {
+  border: 1px solid #ff9bf2 !important;
+}
+
+.form_username:focus {
+  border: 1px solid #ff9bf2 !important;
+  box-shadow: none !important;
+}
+
+.form_password {
+  border: 1px solid #ff9bf2 !important;
+  -webkit-text-security: disc;
+}
+
+.form_password:focus {
+  box-shadow: none !important;
+}
+
+.form_login {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0, -50%);
+}
+
+.img_noel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: noel 10s linear 0s infinite;
+}
+
+.img_house {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 300px;
+  filter: brightness(0.86);
+  transform: translate(-50%, 0);
+}
+
+@keyframes noel {
+  0% {
+    transform: translate(-100%, 70vh) scaleX(-1);
+  }
+
+  10% {
+    transform: translate(10vw, 40vh) scaleX(-1);
+  }
+
+  20% {
+    transform: translate(25vw, 2vh) scaleX(-1);
+  }
+
+  30% {
+    transform: translate(35vw, 10vh) scaleX(-1);
+  }
+
+  40% {
+    transform: translate(45vw, 1vh) scaleX(-1);
+  }
+
+  50% {
+    transform: translate(50vw, -100%) scaleX(-1);
+  }
+
+  51% {
+    transform: translate(50vw, -100%);
+  }
+
+  60% {
+    transform: translate(45vw, 1vh);
+  }
+
+
+  99% {
+    transform: translate(0, -100%);
+  }
+
+  100% {
+    transform: translate(0, -100%) scaleX(-1);
+  }
+}

@@ -1,0 +1,31 @@
+.header {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 1rem;
+}
+
+.product {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.detail {
+  flex-grow: 1;
+}
+
+.amount {
+  margin: auto;
+  padding-right: 10px;
+  font-size: 1.1rem;
+}
+
+td .product:last-child {
+  margin-bottom: 0;
+}
+
+.topping {
+  font-size: 0.8rem;
+  padding-left: 1rem;
+}

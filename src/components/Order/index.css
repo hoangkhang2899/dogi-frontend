@@ -1,0 +1,66 @@
+.order-button {
+  display: flex;
+  height: 30px;
+  flex-grow: 1;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.order-button input {
+  width: 40px;
+  height: 30px;
+  border: none;
+  border-radius: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.order-button input:hover {
+  cursor: default;
+}
+
+.order-button input:focus-visible {
+  outline: none;
+}
+
+.order-button .btn {
+  border-radius: 50%;
+}
+
+.order-button .btn:hover,
+.order-button .btn:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.order-button .add,
+.order-button .substract {
+  height: 30px;
+  width: 30px;
+  transition: none;
+}
+
+.order-check {
+  display: flex;
+}
+
+.order-check-name,
+.order-check-price {
+  font-size: 1.2rem;
+}
+
+.order-check-price {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.order-radio {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.order-radio .form-check {
+  margin-bottom: 0;
+}

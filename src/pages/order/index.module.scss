@@ -1,0 +1,26 @@
+.tab {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.statistical {
+  background-color: #b9d6f3;
+  border-radius: 1rem;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.tablist {
+  display: flex;
+  position: relative;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  height: 2.2rem;
+  margin-top: 0.7rem;
+  font-size: 1.1rem;
+  background-color: #b9d6f3;
+  border-radius: 5px;
+  font-weight: 700;
+}
